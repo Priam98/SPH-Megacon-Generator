@@ -7,3 +7,7 @@
 @page{size:A4 portrait;margin:0}
 @media print{html,body{margin:0!important;padding:0!important;background:white!important;width:210mm}.quotation-doc{box-sizing:border-box;width:210mm;max-width:none;height:297mm;min-height:297mm;margin:0;padding:10mm 11mm 21mm;box-shadow:none;page-break-after:avoid;overflow:hidden}.qt-footer-pattern{bottom:0;height:15mm}.qt-footer-image{height:15mm}}
 @media print{body{background:white}.no-print,header,.tabs,.panel:not(#previewPanel){display:none!important}.wrap{max-width:none;margin:0;padding:0}#previewPanel{border:0;box-shadow:none;padding:0}.print-doc{display:block!important}}
+
+/* Kontak kop permanen */
+.qt-contact-row{display:flex;gap:4px;white-space:nowrap}
+.qt-contact-label{display:inline-block;min-width:128px;flex:0 0 128px}
